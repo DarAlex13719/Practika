@@ -17,9 +17,8 @@ Including another URLconf
 from django.urls import path
 from .views import *
 
-
 urlpatterns = [
     path('', main_page),
-    path('about_blog/', about_blog),
+    path('blog/', about_blog),
     path('post/', post),
 ]
